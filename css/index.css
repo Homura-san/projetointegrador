@@ -6,6 +6,36 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 111px;
+}
+.tool{
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+nav:hover .option{
+    visibility: visible;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.15);
+    text-decoration: none;
+    color: green;
+    margin-bottom: 2px;
+}
+.option:hover{
+    background: rgb(0, 132, 255);
+    color: #FFF;
+    visibility: visible;
+    transition: 0.25s;
+}
 .title{
     font-family: 'Abhaya Libre', serif;
     text-decoration: none;
@@ -16,6 +46,7 @@ header{
     text-decoration: none;
     color: white;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 #ab{
     visibility: hidden;
