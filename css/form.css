@@ -137,6 +137,9 @@ footer{
     .pg1{
         font-size: 22px;
     }
+    .tit1{
+        margin-bottom: 10px;
+    }
     section{
         flex-direction: column;
         margin-top: 100px;
