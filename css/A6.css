@@ -55,6 +55,6 @@ footer{
 
 @media only screen and (max-width: 600px){
     .foot1{
-        font-size: 12px;
+        font-size: 12px; 
     }
 }
