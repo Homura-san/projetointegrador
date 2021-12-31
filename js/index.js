@@ -1,4 +1,4 @@
-let a = "v1.0.1"
+let a = "v1.0.2"
 let b = "Referências:"
 let c = "https://www.ricardoeletro.com.br/atendimento/entrega"
 let d = "https://www.casasbahia.com.br/CentraldeAtendimento/atendimento.aspx?nid=201404"
