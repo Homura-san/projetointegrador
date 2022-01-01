@@ -17,6 +17,11 @@ header{
     color: white;
     font-size: 25px;
 }
+.menu{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
 .menu1{
     text-decoration: none;
     color: white;
@@ -139,6 +144,9 @@ footer{
     }
     .tit1{
         margin-bottom: 10px;
+    }
+    .menu1{
+        visibility: hidden;
     }
     section{
         flex-direction: column;

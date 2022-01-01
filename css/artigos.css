@@ -12,6 +12,11 @@ header{
     color: white;
     font-size: 25px;
 }
+.menu{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
 .menu1{
     text-decoration: none;
     color: white;
@@ -78,6 +83,9 @@ footer{
 }
 
 @media only screen and (max-width: 600px){
+    .menu1{
+        visibility: hidden;
+    }
     .b1{
         font-size: 12px;
     }

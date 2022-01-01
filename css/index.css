@@ -49,6 +49,11 @@ nav:hover .option{
     color: white;
     font-size: 15px;
 }
+.menu1{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
 #ab{
     visibility: hidden;
 }
@@ -101,6 +106,9 @@ footer{
     }
     .menu{
         font-size: 13px;
+    }
+    .menu1{
+        visibility: hidden;
     }
     nav:hover .option{
         visibility: hidden;

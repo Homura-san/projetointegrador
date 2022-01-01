@@ -12,6 +12,11 @@ header{
     color: white;
     font-size: 25px;
 }
+.menu{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
 .menu1{
     text-decoration: none;
     color: white;
@@ -57,7 +62,9 @@ footer{
     header{
         margin-top: 10px;
     }
-
+    .menu1{
+        visibility: hidden;
+    }
     p{
         font-size: 15px;
     }
