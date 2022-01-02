@@ -29,7 +29,7 @@
     </div>
     
     <section>
-        <form action="" method="post" data-netlify="true">
+        <form action="" method="post" netlify-honeypot="bot-field" data-netlify="true">
         <div class="content">
                 
             <label for="nome">Nome Completo:</label>
@@ -40,6 +40,10 @@
 
             <label for="tel">Telefone:</label>
             <input type="tel" name="tel" id="tel" required>
+
+            <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+              </p>
         </div>
 
         <div class="content1">

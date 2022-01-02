@@ -76,6 +76,9 @@ section{
 #endereco{
     height: 88px;
 }
+.hidden{
+    visibility: hidden;
+}
 #tel{
     height: 25px;
 }
