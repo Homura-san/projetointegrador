@@ -47,7 +47,6 @@ section{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 350px;
     margin-bottom: 50px;
 }
 .content{
@@ -71,6 +70,7 @@ section{
     visibility: hidden;
 }
 #nome{
+    width: 480px;
     height: 25px;
 }
 #endereco{
@@ -154,6 +154,7 @@ footer{
         margin-bottom: 90px;
     }
     #nome{
+        width: 290px;
         height: 25px;
     }
     #tel{
